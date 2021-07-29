@@ -17,7 +17,7 @@ weight_decay= 0.0001
 
 hidden_dim = 512
 num_highlevel_frames = 32
-num_highlevel_samples = 16
+num_highlevel_samples = 64
 num_stages = n_stages
 num_layers = n_layers
 num_f_maps = n_features
