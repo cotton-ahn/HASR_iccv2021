@@ -1,0 +1,13 @@
+num_stages = 4
+num_layers = 10
+num_f_maps = 64
+features_dim = 2048
+batch_size = 1
+lr = 5e-4
+num_epochs = 50
+batch_size=1
+dataset_root = './dataset'
+model_root = './model'
+result_root ='./result'
+record_root = './record'
+iou_thresholds = [0.1, 0.25, 0.5]
