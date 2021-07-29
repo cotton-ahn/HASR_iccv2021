@@ -50,7 +50,7 @@ main_backbone_name = 'mstcn'
 4. Use show_quantitative_results.ipynb to see the saved records in "./records"
 
 ## Pretrained backbone models
-We release the pretrained backbone models that we have used for our experiments [Link]()
+We release the pretrained backbone models that we have used for our experiments [Link](https://drive.google.com/file/d/1ExYJQa0PN_okVTY4NdZV5lPVhJDmuXTV/view?usp=sharing)
 
 Download the "model.zip" folder, and unzip it as "model" in this workspace "HASR_iccv2021"
 
@@ -94,4 +94,4 @@ HASR_iccv2021
   └── requirements.txt
 ```
 ## Acknowledgements
-We hugely appreciate for previous researchers in this field. Especially [MS-TCN](https://github.com/yabufarha/ms-tcn) made a huge contribution for future researchers like us!
+We hugely appreciate for previous researchers in this field. Especially [MS-TCN](https://github.com/yabufarha/ms-tcn), [SSTDA](https://github.com/cmhungsteve/SSTDA), [ASRF](https://github.com/yiskw713/asrf), made a huge contribution for future researchers like us!
