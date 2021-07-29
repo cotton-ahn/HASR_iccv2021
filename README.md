@@ -1,5 +1,5 @@
-# HASR
-Hierarchical Action Segmentation Refiner
+# HASR_iccv2021
+This is an official GitHub Repository for paper "Refining Action Segmentation with Hierarchical Video Representations", which is accepted as a regular paper (poster) in ICCV 2021.
 
 ## Requirements
 * Python >= 3.7
