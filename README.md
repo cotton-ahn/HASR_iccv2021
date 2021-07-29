@@ -20,8 +20,8 @@ pip install -r requirements.txt
 2. Unzip the zip file, and re-name the './Datasets/action-segmentation' folder as "./dataset"
 3. Clone git repositories for this repo and several backbone models
 ```
-git clone https://github.com/cotton-ahn/hasr
-cd ./hasr
+git clone https://github.com/cotton-ahn/HASR_iccv2021
+cd ./HASR_iccv2021
 mkdir backbones
 cd ./backbones
 git clone https://github.com/yabufarha/ms-tcn
@@ -30,12 +30,12 @@ git clone https://github.com/yiskw713/asrf
 ```
 4. Run the script for ASRF
 ```
-cd ./hasr
+cd ..
 ./scripts/install_asrf.sh
 ```
 5. Modify the script of MSTCN
-* In ./backbone/ms-tcn/model.py, delete 104th line, which is "print vid"
-* In ./backbone/ms-tcn/batch_gen.py, change 49th line to "length_of_sequences=list(map(len, batch_target))"
+* In ./backbones/ms-tcn/model.py, delete 104th line, which is "print vid"
+* In ./backbones/ms-tcn/batch_gen.py, change 49th line to "length_of_sequences=list(map(len, batch_target))"
 
 ## Train
 1. use (BACKBONE NAME)_train_evaluate.ipynb to train backbones first.
@@ -47,7 +47,41 @@ split = 2            # gtea : 1~4, 50salads : 1~5, breakfast : 1~4
 pool_backbone_name = ['mstcn'] # 'asrf', 'mstcn', 'sstda', 'mgru'
 main_backbone_name = 'mstcn'
 ```
-4. Use visualize_result.ipynb to see the records
+4. Use show_quantitative_results.ipynb to see the saved records in "./records"
 
-## Pretrained models
-* Will be relased after the publication
+## Pretrained backbone models
+We release the pretrained backbone models that we have used for our experiments [Link]()
+
+Download the "model.zip" folder, and unzip it as "model" in this workspace "HASR_iccv2021"
+
+## Folder Structure
+After you successfully prepare for training, the whole folder structure would be as follows (record, result):
+```
+HASR_iccv2021
+  └── configs
+  └── csv
+  │   └── gtea
+  │   └── 50salads
+  │   └── breakfast  
+  └── dataset
+  │   └── gtea
+  │   └── 50salads
+  │   └── breakfast  
+  └── scripts
+  └── src
+  └── backbones
+  │   └── asrf
+  │   └── ms-tcn
+  │   └── SSTDA
+  └── ASRF_train_evaluate.ipynb
+  └── MSTCN_train_evaluate.ipynb
+  └── SSTDA_train_evaluate.ipynb
+  └── mGRU_train_evaluate.ipynb
+  └── REFINER_train_evaluate.ipynb
+  └── show_quantitative_results.ipynb
+  └── LICENSE
+  └── README.md
+  └── requirements.txt
+```
+## Acknowledgements
+We hugely appreciate for previous researchers in this field. Especially [MS-TCN](https://github.com/yabufarha/ms-tcn) made a huge contribution for future researchers like us!
