@@ -59,6 +59,11 @@ After you successfully prepare for training, the whole folder structure would be
 ```
 HASR_iccv2021
   └── configs
+  └── record
+  │   └── asrf
+  │   └── mstcn
+  │   └── sstda
+  │   └── mgru
   └── csv
   │   └── gtea
   │   └── 50salads
