@@ -69,6 +69,11 @@ HASR_iccv2021
   │   └── breakfast  
   └── scripts
   └── src
+  └── model
+  │   └── asrf
+  │   └── mstcn
+  │   └── sstda
+  │   └── mgru
   └── backbones
   │   └── asrf
   │   └── ms-tcn
