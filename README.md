@@ -93,5 +93,25 @@ HASR_iccv2021
   └── README.md
   └── requirements.txt
 ```
+
+## Experimental Results that are not on the paper and supplementary material.
+- In supplementary material, we mentioned that the experiment results of applying HASR to (UNSEEN) SSTDA/ASRF with Breakfast dataset will be uploaded on this Github Page. Here is the relevant information. 
+
+|  | F1@10 | F1@25 | F1@50 | Edit | Acc |
+|---|---|---|---|---|---|
+| SSTDA | 70.9 | 64.7 | 50.3 | 70.2 | 67.8 |
+| SSTDA+HASR | 74.6 | 68.5 | 53.9 | 71.0 | 68.7 |
+| Gain | 3.7 | 3.8 | 3.6 | 0.9 | 0.9 |
+
+|  | F1@10 | F1@25 | F1@50 | Edit | Acc |
+|---|---|---|---|---|---|
+| ASRF | 73.8 | 68.6 | 56.4 | 72.2 | 68.5 |
+| ASRF+HASR | 74.8 | 70.0 | 57.0 | 70.6 | 70.3 | 
+| Gain | 1.0 | 1.4 | 0.6 | -1.6 | 1.8 | 
+
+
+## Typo in Supplementary material
+- In table 1, F1@{0, 25, 50} should be changed to F1@{10, 25, 50}.
+
 ## Acknowledgements
 We hugely appreciate for previous researchers in this field. Especially [MS-TCN](https://github.com/yabufarha/ms-tcn), [SSTDA](https://github.com/cmhungsteve/SSTDA), [ASRF](https://github.com/yiskw713/asrf), made a huge contribution for future researchers like us!
