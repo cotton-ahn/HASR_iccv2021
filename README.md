@@ -1,3 +1,6 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/refining-action-segmentation-with/action-segmentation-on-50-salads-1)](https://paperswithcode.com/sota/action-segmentation-on-50-salads-1?p=refining-action-segmentation-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/refining-action-segmentation-with/action-segmentation-on-breakfast-1)](https://paperswithcode.com/sota/action-segmentation-on-breakfast-1?p=refining-action-segmentation-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/refining-action-segmentation-with/action-segmentation-on-gtea-1)](https://paperswithcode.com/sota/action-segmentation-on-gtea-1?p=refining-action-segmentation-with)
 # HASR_iccv2021
 This is an official GitHub Repository for paper "Refining Action Segmentation with Hierarchical Video Representations", which is accepted as a regular paper (poster) in ICCV 2021.
 
