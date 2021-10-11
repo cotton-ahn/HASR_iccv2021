@@ -51,6 +51,7 @@ pool_backbone_name = ['mstcn'] # 'asrf', 'mstcn', 'sstda', 'mgru'
 main_backbone_name = 'mstcn'
 ```
 4. Use show_quantitative_results.ipynb to see the saved records in "./records"
+5. Note that evaluation results can be a bit different from the ones from our paper since the video representation encoder works in a sampling-based way.
 
 ## Pretrained backbone models
 We release the pretrained backbone models that we have used for our experiments [Link](https://drive.google.com/file/d/1ExYJQa0PN_okVTY4NdZV5lPVhJDmuXTV/view?usp=sharing)
